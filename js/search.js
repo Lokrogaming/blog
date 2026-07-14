@@ -1,0 +1,1 @@
+export function filterPosts(posts,{query='',category='',tag=''}){const needle=query.trim().toLowerCase();return posts.filter(p=>(!category||p.category===category)&&(!tag||(p.tags||[]).includes(tag))&&(!needle||[p.title,p.excerpt,p.content,p.category,...(p.tags||[])].join(' ').toLowerCase().includes(needle)));}

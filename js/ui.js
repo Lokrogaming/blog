@@ -1,0 +1,3 @@
+import {dateDe,readingTime} from './blogs.js';
+const tags = post => (post.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+export function card(post){const image=post.image?`<img class="post-image" src="${post.image}" alt="" loading="lazy">`:'';return `<a class="post-card glass" href="blog.html?slug=${encodeURIComponent(post.slug)}">${image}<div class="post-body"><div class="post-meta">${post.important?'<span class="tag important">Wichtig</span>':''}<span>${post.category||'Blog'}</span><span>·</span><span>${dateDe(post.date)}</span></div><h3>${post.title}</h3><p class="excerpt">${post.excerpt||''}</p><div class="post-footer"><div>${tags(post)}</div><span class="muted">${readingTime(post.content)} Min.</span></div></div></a>`}
