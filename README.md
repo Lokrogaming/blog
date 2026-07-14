@@ -20,4 +20,16 @@ Der Editor verwendet Markdown. Beispiele:
 **fetter Text** und *kursiver Text*
 - Listenpunkt
 [Linktext](https://example.com)
+![Bildbeschreibung](https://example.com/bild.jpg)
 ```
+
+## Beitragslinks und Social Cards
+
+Jeder Beitrag hat eine eindeutige alphanumerische **Beitrags-ID** und einen lesbaren **Slug**. Beide URLs funktionieren:
+
+```text
+blog.html?post=LokroNews01
+blog.html?slug=mein-beitrag
+```
+
+Im Editor lassen sich Headerbild sowie Social-Bild, Social-Titel und Social-Beschreibung setzen. Diese Werte erzeugen Open-Graph- und Twitter-Meta-Tags für Link-Vorschauen.
