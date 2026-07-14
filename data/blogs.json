@@ -1,47 +1,41 @@
 [
   {
-    "id": "LokroWelcome01",
-    "slug": "willkommen-lokro-blog",
-    "title": "Willkommen beim neuen Lokro Blog!",
-    "date": "2024-06-01",
-    "author": "Lokrogamer",
-    "category": "News",
-    "tags": ["info", "start"],
-    "excerpt": "Neuigkeiten, Ankündigungen und Einblicke aus der Lokro-Community.",
-    "content": "## Schön, dass du da bist!\n\nWir freuen uns, unseren neuen Blog zu starten. Hier erfährst du alle Neuigkeiten, Ankündigungen und mehr über Lokro!\n\n- Regelmäßige Updates\n- Blick hinter die Kulissen\n- Exklusive Inhalte für Community-Mitglieder",
-    "important": true,
-    "image": "",
-    "socialImage": "",
-    "seoDescription": "Willkommen beim neuen Lokro Blog."
-  },
-  {
-    "id": "LokroEvent01",
-    "slug": "naechstes-community-event",
-    "title": "Nächstes Community-Event",
-    "date": "2024-06-11",
-    "author": "Team Lokro",
-    "category": "Events",
-    "tags": ["event", "community"],
-    "excerpt": "Am 14. Juni trifft sich die Community zum nächsten gemeinsamen Event.",
-    "content": "## Sei dabei\n\nAm 14.06. findet unser nächstes Community-Event statt. Wir freuen uns auf einen entspannten Abend mit euch und kleinen Überraschungen.\n\nAlle Details findest du auf unserem Discord-Server.",
-    "important": false,
-    "image": "",
-    "socialImage": "",
-    "seoDescription": "Das nächste Lokro Community-Event."
-  },
-  {
     "id": "LokroNotice01",
-    "slug": "wartungsarbeiten-blog",
     "title": "Wartungsarbeiten am Blog",
-    "date": "2024-06-06",
+    "slug": "wartungsarbeiten-blog",
+    "date": "2026-06-06",
     "author": "Lokrogamer Admin",
     "category": "Hinweise",
-    "tags": ["maintenance"],
+    "tags": [
+      "maintenance"
+    ],
     "excerpt": "Am 8. Juni führen wir kurze geplante Wartungsarbeiten durch.",
-    "content": "## Kurze Pause\n\nAm 8. Juni gibt es geplante Wartungsarbeiten. Währenddessen ist der Blog für kurze Zeit nicht erreichbar. Danach sind wir wieder wie gewohnt für euch da.",
-    "important": false,
     "image": "",
+    "seoDescription": "Hinweis zu Wartungsarbeiten am Lokro Blog.",
     "socialImage": "",
-    "seoDescription": "Hinweis zu Wartungsarbeiten am Lokro Blog."
+    "socialTitle": "",
+    "socialDescription": "",
+    "important": false,
+    "content": "## Kurze Pause\n\nAm 8. Juni gibt es geplante Wartungsarbeiten. Währenddessen ist der Blog für kurze Zeit nicht erreichbar. Danach sind wir wieder wie gewohnt für euch da."
+  },
+  {
+    "id": "LokroWelcome01",
+    "title": "Willkommen beim neuen Lokro Blog!",
+    "slug": "willkommen-lokro-blog",
+    "date": "2026-06-01",
+    "author": "Lokrogamer",
+    "category": "News",
+    "tags": [
+      "info",
+      "start"
+    ],
+    "excerpt": "Neuigkeiten, Ankündigungen und Einblicke aus der Lokro-Community.",
+    "image": "",
+    "seoDescription": "Willkommen beim neuen Lokro Blog.",
+    "socialImage": "",
+    "socialTitle": "",
+    "socialDescription": "",
+    "important": true,
+    "content": "## Schön, dass du da bist!\n\nWir freuen uns, unseren neuen Blog zu starten. Hier erfährst du alle Neuigkeiten, Ankündigungen und mehr über Lokro!\n\n- Regelmäßige Updates\n- Blick hinter die Kulissen\n- Exklusive Inhalte für Community-Mitglieder"
   }
 ]
